@@ -1,0 +1,27 @@
+.optionIcon{
+  font-size: 20px;
+  cursor: pointer;
+  color: #2b2b2b;
+}
+.optionIcon:hover {
+  color: #164cbb;
+  font-size: 22px;
+}
+
+.app-search-container {
+  height: 100%;
+  margin: 0 10px;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+.formItem {
+  /*height: 36px;*/
+  width: 570px;
+  min-width: 260px;
+}
+.footer{
+  width: 360px;
+  text-align: right;
+}

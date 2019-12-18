@@ -1,0 +1,1 @@
+java -Dfile.encoding=utf-8  -DopenfireHome=E:/projects/im/code/server/openfire/distribution/target/distribution-base -jar 

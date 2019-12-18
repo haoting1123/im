@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8b54b5cd-77d3-4fec-b77d-06419c2043ce" name="默认的" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Arquillian JUnit Test Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Program Files/Maven/apache-maven-3.6.2-bin/apache-maven-3.6.2" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-Xms128m -Xmx512m -Duser.language=zh -Dfile.encoding=UTF-8" />
+  </component>
+  <component name="ProjectId" id="1T8y3IXgf9VqwxZWGpiMtyboGv9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="JPA.DatabaseSchemaImportDialog" value="3d63355d-4b8d-4f62-84a4-a57b14174ffc" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/synto/core/security/rs" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.5735632" />
+    <property name="settings.editor.selected.configurable" value="plugins.junitgenerator.application" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.synto.crypto.util" />
+      <recent name="com.synto.im.license.repository" />
+      <recent name="com.synto.util" />
+      <recent name="com.synto.um.repository" />
+      <recent name="com.synto.im.license.service" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="com.synto" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\im\server\src\main\java\com\synto\core\security\rs" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ImApplication">
+    <configuration name="HashUtilTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="imservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.synto.crypto.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.synto.crypto.util" />
+      <option name="MAIN_CLASS_NAME" value="com.synto.crypto.util.HashUtilTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="imservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.synto.crypto.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.synto.crypto.util" />
+      <option name="MAIN_CLASS_NAME" value="com.synto.crypto.util.HashUtilTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashUtilTest.hash" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="imservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.synto.crypto.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.synto.crypto.util" />
+      <option name="MAIN_CLASS_NAME" value="com.synto.crypto.util.HashUtilTest" />
+      <option name="METHOD_NAME" value="hash" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImLicenseRepositoryTest.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="imservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.synto.im.license.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.synto.im.license.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.synto.im.license.repository.ImLicenseRepositoryTest" />
+      <option name="METHOD_NAME" value="findAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PropertyFileUtilTest.loadProperties" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="imservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.synto.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.synto.util" />
+      <option name="MAIN_CLASS_NAME" value="com.synto.util.PropertyFileUtilTest" />
+      <option name="METHOD_NAME" value="loadProperties" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="imservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.synto.ImApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.HashUtilTest.hash" />
+        <item itemvalue="JUnit.HashUtilTest (1)" />
+        <item itemvalue="JUnit.HashUtilTest" />
+        <item itemvalue="JUnit.ImLicenseRepositoryTest.findAll" />
+        <item itemvalue="JUnit.PropertyFileUtilTest.loadProperties" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b54b5cd-77d3-4fec-b77d-06419c2043ce" name="默认的" comment="" />
+      <created>1572227506352</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572227506352</updated>
+      <workItem from="1572227513601" duration="1197000" />
+      <workItem from="1572234819193" duration="718000" />
+      <workItem from="1572249866301" duration="1129000" />
+      <workItem from="1572251199668" duration="2564000" />
+      <workItem from="1572257089464" duration="1168000" />
+      <workItem from="1572263379760" duration="584000" />
+      <workItem from="1572264261304" duration="543000" />
+      <workItem from="1572265212256" duration="5897000" />
+      <workItem from="1572323139187" duration="611000" />
+      <workItem from="1572337617477" duration="1051000" />
+      <workItem from="1572339451454" duration="923000" />
+      <workItem from="1572344266392" duration="197000" />
+      <workItem from="1572850380135" duration="1693000" />
+      <workItem from="1572855823966" duration="330000" />
+      <workItem from="1572856171921" duration="644000" />
+      <workItem from="1572856834973" duration="681000" />
+      <workItem from="1572919986036" duration="940000" />
+      <workItem from="1573200910221" duration="647000" />
+      <workItem from="1574837081730" duration="645000" />
+      <workItem from="1574931659222" duration="1034000" />
+      <workItem from="1575252135762" duration="1447000" />
+      <workItem from="1575253642452" duration="1274000" />
+      <workItem from="1575343812539" duration="6923000" />
+      <workItem from="1575422034403" duration="7266000" />
+      <workItem from="1575431370897" duration="923000" />
+      <workItem from="1575439394941" duration="2053000" />
+      <workItem from="1575444743311" duration="22000" />
+      <workItem from="1575448184118" duration="709000" />
+      <workItem from="1575450229781" duration="1766000" />
+      <workItem from="1575507632634" duration="595000" />
+      <workItem from="1575512833313" duration="680000" />
+      <workItem from="1575526517588" duration="9238000" />
+      <workItem from="1575594277115" duration="17263000" />
+      <workItem from="1575622284704" duration="1866000" />
+      <workItem from="1575680191733" duration="15120000" />
+      <workItem from="1575700205563" duration="963000" />
+      <workItem from="1575701205576" duration="78000" />
+      <workItem from="1575701308077" duration="1468000" />
+      <workItem from="1575703483953" duration="4854000" />
+      <workItem from="1575852769396" duration="21674000" />
+      <workItem from="1575940185515" duration="18551000" />
+      <workItem from="1576041278886" duration="5725000" />
+      <workItem from="1576112529918" duration="15941000" />
+      <workItem from="1576199129740" duration="6201000" />
+      <workItem from="1576285313452" duration="7604000" />
+      <workItem from="1576309125793" duration="766000" />
+      <workItem from="1576458004363" duration="18846000" />
+      <workItem from="1576544270045" duration="315000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="589" y="363" key="#Assign_Data_Sources" timestamp="1575253690831">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="589" y="363" key="#Assign_Data_Sources/0.0.1920.1040@0.0.1920.1040" timestamp="1575253690831" />
+    <state x="552" y="181" key="#Inspections" timestamp="1576292688009">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="181" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1576292688009" />
+    <state x="580" y="308" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575252956253">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="580" y="308" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575252956253" />
+    <state x="717" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1576137173918">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="717" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1576137173918" />
+    <state x="220" y="349" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1575253126907">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="220" y="349" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575253126907" />
+    <state x="37" y="100" key="#com.intellij.jpa.generation.ui.DatabaseSchemaImportDialog" timestamp="1575253183683">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="37" y="100" key="#com.intellij.jpa.generation.ui.DatabaseSchemaImportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575253183683" />
+    <state x="744" y="386" width="431" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1575596207182">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="744" y="386" width="431" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1575596207182" />
+    <state x="834" y="157" key="FileChooserDialogImpl" timestamp="1575700345447">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="834" y="157" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1575700345447" />
+    <state width="1877" height="253" key="GridCell.Tab.0.bottom" timestamp="1576488817544">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="253" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576488817544" />
+    <state width="1877" height="253" key="GridCell.Tab.0.center" timestamp="1576488817544">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="253" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576488817544" />
+    <state width="1877" height="253" key="GridCell.Tab.0.left" timestamp="1576488817543">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="253" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576488817543" />
+    <state width="1877" height="253" key="GridCell.Tab.0.right" timestamp="1576488817544">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="253" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576488817544" />
+    <state width="1877" height="253" key="GridCell.Tab.1.bottom" timestamp="1576488817547">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="253" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576488817547" />
+    <state width="1877" height="253" key="GridCell.Tab.1.center" timestamp="1576488817546">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="253" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576488817546" />
+    <state width="1877" height="253" key="GridCell.Tab.1.left" timestamp="1576488817545">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="253" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576488817545" />
+    <state width="1877" height="253" key="GridCell.Tab.1.right" timestamp="1576488817547">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="253" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576488817547" />
+    <state x="445" y="190" width="994" height="708" key="SettingsEditor" timestamp="1576460657230">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="445" y="190" width="994" height="708" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576460657230" />
+    <state x="299" y="241" key="caller.chooser.dialog" timestamp="1575682557775">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="299" y="241" key="caller.chooser.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575682557775" />
+    <state x="724" y="238" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1576136448973">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="724" y="238" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576136448973" />
+    <state x="690" y="280" width="540" height="489" key="extract.method.dialog" timestamp="1575858941305">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="280" width="540" height="489" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575858941305" />
+    <state x="647" y="280" width="759" height="538" key="find.popup" timestamp="1576484479424">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="647" y="280" width="759" height="538" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1576484479424" />
+    <state x="334" y="227" key="new project wizard" timestamp="1575254976200">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="227" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1575254976200" />
+    <state x="1150" y="244" key="run.anything.popup" timestamp="1575427017114">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1150" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1575427017114" />
+    <state x="598" y="236" key="spring file set editor" timestamp="1575956618326">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="598" y="236" key="spring file set editor/0.0.1920.1040@0.0.1920.1040" timestamp="1575956618326" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/imservice$ImApplication.ic" NAME="ImApplication Coverage Results" MODIFIED="1576292701738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

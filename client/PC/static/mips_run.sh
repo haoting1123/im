@@ -1,0 +1,1 @@
+sudo rpm -ivh --force C:\Users\R480-1\AppData\Roaming\Electron\imdownload\im_setup_2.1.1.exe

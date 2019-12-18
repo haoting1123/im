@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="vue.js"></script>
+    <script src="axios.js"></script>
+
+</head>
+
+<body>
+
+
+
+<form action="http://localhost:8080/rest/file/upload"
+      method="post"
+      enctype="multipart/form-data">
+
+    <input type="file" name="file"/>
+    <input type="text" name="path" value="prj"/>
+
+    <button type="submit">提交</button>
+</form>
+
+<div id="app">
+    <p><input type="file" value="" id="file" @change='onUpload'>
+    <p>
+    <div>curl -X POST -F "file=@pom.xml" http://localhost:8080/rest/license/upload</div>
+
+    <p>
+        <button @click="postApiData">POST</button>
+    <p>
+        <button @click="getApiData">GET</button>
+    <p>
+        <button @click="updateApiData">put</button>
+    <p>
+        <button @click="delApiData">del</button>
+</div>
+</body>
+
+<script>
+
+    // 实例化vue对象（MVVM中的View Model）
+    new Vue({
+        // vm控制的区块为id为app的div，此div中的所有vue指令均可以被vm解析
+        el: '#app',
+        data: {
+            // 数据 （MVVM中的Model）
+        },
+        methods: {
+            onUpload: function (e) {
+                var url = 'http://localhost:8080/rest/file/upload';
+                //var url ='http://localhost:8080/rest/file/fs2';
+                let file = event.target.files[0];
+                const formData = new FormData();
+                formData.append('file', file);
+                formData.append('path', "123");
+                formData.append('age', "22");
+
+
+                axios.post(url, formData).then(function (res) {
+                    var resData = res.data;
+                    console.log(resData);
+                });
+            },
+            getApiData: function () {
+                var url = "http://localhost:8080/rest/user";
+                // post有两个参数
+                //参数1:请求的路径
+                //参数2:提交的参数
+                //提交参数的两种形态:
+                //          1.可以直接传入字符串 name=张三&age=19
+                //          2.可以以对象的形式传入{name:"三",age:19}
+                axios.get(url, {params: {name: "tom", mobile: "123123", data: {fm: "my"}}}).then(function (res) {
+                    var resData = res.data;
+                    if (resData.status == "0") { //0表示成功，1表示失败
+                        console.log(resData);
+                    } else {
+                        console.log(resData);
+                    }
+                });
+
+            },
+            postApiData: function () {
+                //var url = "http://localhost:8080/rest/project/1/user";
+                var url = "http://localhost:8080/rest/project/2/pay";
+                //var url = "http://localhost:8080/rest/projectpay";
+                //var url ="http://localhost:8080/rest/project/person";
+                //var url = "http://localhost:8080/rest/user";
+                //var url = "http://localhost:8080/rest/project/1/user";
+                //var url = "http://localhost:8080/rest/project/1/person";
+                //var url ="http://localhost:8080/rest/project/1/summary";
+                //var url = "http://localhost:8080/rest/project2/1/person/1";
+                //var url = "http://localhost:8080/rest/project2/1/person";
+                // post有两个参数
+                //参数1:请求的路径
+                //参数2:提交的参数
+                //提交参数的两种形态:
+                //          1.可以直接传入字符串 name=张三&age=19
+                //          2.可以以对象的形式传入{name:"三",age:19}
+                axios.post(url, {name: "tom", projectId: "1", params: {key: "fortest"}}).then(function (res) {
+                    var resData = res.data;
+                    if (resData.status == "0") { //0表示成功，1表示失败
+                        console.log(resData);
+                    } else {
+                        console.log(resData);
+                    }
+                });
+
+            },
+            delApiData: function () {
+                // var url = "http://localhost:8080/rest/project/1";
+                var url = "http://localhost:8080/rest/project/1/user/1";
+                axios.delete(url, {id: 1}).then(function (res) {
+                    var resData = res.data;
+                    if (resData.status == "0") { //0表示成功，1表示失败
+                        console.log(resData);
+                    } else {
+                        console.log(resData);
+                    }
+                });
+
+            },
+            updateApiData: function () {
+                var url = "http://localhost:8080/rest/uim/user/1";
+
+                axios.put(url, {userid: 1, name: "tom", sex: "femal", type: "1", state: "1"}).then(function (res) {
+                    var resData = res.data;
+                    if (resData.status == "0") { //0表示成功，1表示失败
+                        console.log(resData);
+                    } else {
+                        console.log(resData);
+                    }
+                });
+
+            },
+            login: function () {
+                var url = "http://localhost:8080/rest/security/login";
+
+                axios.post(url, {userName: "admin", password: "123456"}).then(function (res) {
+                    var resData = res.data;
+                    if (resData.status == "0") { //0表示成功，1表示失败
+                        console.log(resData);
+                    } else {
+                        console.log(resData);
+                    }
+                });
+
+            },
+            logout: function () {
+                var url = "http://localhost:8080/rest/security/logout";
+
+                axios.post(url).then(function (res) {
+                    var resData = res.data;
+                    if (resData.status == "0") { //0表示成功，1表示失败
+                        console.log(resData);
+                    } else {
+                        console.log(resData);
+                    }
+                });
+
+            }
+        }
+    })
+</script>
+</html>

@@ -1,0 +1,8 @@
+[1028/132243.845:ERROR:process_reader_win.cc(151)] SuspendThread: 拒绝访问。 (0x5)
+[1028/132244.532:ERROR:process_reader_win.cc(151)] SuspendThread: 拒绝访问。 (0x5)
+[1028/132244.532:ERROR:process_reader_win.cc(151)] SuspendThread: 拒绝访问。 (0x5)
+[1028/132244.532:ERROR:process_reader_win.cc(151)] SuspendThread: 拒绝访问。 (0x5)
+[1028/132244.532:ERROR:process_reader_win.cc(151)] SuspendThread: 拒绝访问。 (0x5)
+[1028/132244.532:ERROR:process_reader_win.cc(151)] SuspendThread: 拒绝访问。 (0x5)
+[1028/132244.532:ERROR:process_reader_win.cc(123)] NtOpenThread: {无法访问} 过程已请求访问一对象，但未给访问权限。 (0xc0000022)
+[1028/132244.642:ERROR:exception_snapshot_win.cc(98)] thread ID 5116 not found in process

@@ -1,0 +1,46 @@
+
+  .infoAll{
+     width: 100%;
+      .my-uni-ul{
+        width: 100%;
+        overflow: hidden;
+          .my-uni-li{
+            // -webkit-transition: all 0.2s;
+            transition: all 0.2s;
+              width: 100%;
+              height: 120upx; 
+              line-height: 120upx;
+              // border-bottom: 1px solid #E0EEF1;
+              display:flex;
+              align-items:center;
+              .top{
+                  width: 15%;
+                  height: 120upx;
+                  // background-color: #C4C7CD;
+                  // color: #fff;
+                  font-size: 34upx;
+                  text-align:center;
+				position: absolute;
+				top: 0;
+				right: -15%;
+              }
+              .delect{
+                width: 15%;
+                height: 120upx;
+                // background-color: #FF3B32;
+                // color: #ffffff;
+                font-size: 34upx;
+                text-align:center;
+				position: absolute;
+				top: 0;
+				right: -30%;
+              }
+          }
+      }
+  }
+.my-uni-li-hide{
+    transform: translate3d(0,0,0);
+}
+.my-uni-li-show{
+    transform: translate3d(-30%,0,0);
+}

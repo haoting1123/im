@@ -1,0 +1,9 @@
+/unpackage/dist
+/unpackage/resources
+/new_file.json
+/unpackage/offline-package/android/IM-JST/.idea
+/unpackage/offline-package/android/IM-JST/app/build/*
+/unpackage/offline-package/android/IM-JST/.gradle
+unpackage/offline-package/android/IM-JST/app/release/output.json
+unpackage/offline-package/android/IM-JST/app/release/app-release.apk
+node_modules

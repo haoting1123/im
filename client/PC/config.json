@@ -1,0 +1,13 @@
+{
+    "name": "IM",
+    "description": "即时通讯软件",
+    "productName": "即时通",
+    "genericName": "IM",
+    "license": "LIC",
+    "icon": "static/icon/icon_x256.png",
+    "revision": "2",
+    "desktopTemplate": "static/desktop.ejs",
+    "scripts": {
+        "post": "static/post_script.sh"
+    }
+}

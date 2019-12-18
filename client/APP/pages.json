@@ -1,0 +1,367 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页,
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationBarBackgroundColor": "#387FB5",
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"bounce": "none", //关闭窗口回弹效果
+					"softinputNavBar": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/group/group-notice",
+			"style": {
+				"navigationBarBackgroundColor": "#387FB5",
+				"navigationBarTitleText": "群公告"
+			}
+		},
+		{
+			"path": "pages/group/add-group-notice",
+			"style": {
+				"navigationBarBackgroundColor": "#387FB5",
+				"navigationBarTitleText": "发布公告"
+			}
+		},
+		{
+			"path": "pages/im-chat/im-chat",
+			"style": {
+				"navigationBarBackgroundColor": "#387FB5",
+				"navigationBarTitleText": "聊天窗口",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"type": "menu"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/main/mainPeople",
+			"style": {
+				"navigationBarBackgroundColor": "#387FB5",
+				"navigationBarTitleText": "联系人"
+			}
+		}, {
+			"path": "pages/organize/searchFriend",
+			"style": {
+				"navigationBarBackgroundColor": "#387FB5",
+				"navigationBarTitleText": "查找联系人"
+			}
+		}, {
+			"path": "pages/group/addGroupPerson",
+			"style": {
+				"navigationBarBackgroundColor": "#387FB5",
+				"navigationBarTitleText": "创建群组",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "确定",
+							"fontSize": "16px",
+							"color": "#F2F2F2"
+						}]
+					}
+				}
+			}
+		}, {
+			"path": "pages/friends/selectFriend",
+			"style": {
+				"navigationBarBackgroundColor": "#387FB5",
+				"navigationBarTitleText": "选择用户",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "发送",
+							"fontSize": "16px",
+							"color": "#F2F2F2"
+						}]
+					},
+					"pullToRefresh": {
+						"support": true,
+						"style": "circle"
+					}
+				}
+			}
+		}, {
+			"path": "pages/friends/friend-search",
+			"style": {
+				"navigationBarBackgroundColor": "#387FB5",
+				"navigationBarTitleText": "查找联系人"
+			}
+		}, {
+			"path": "pages/group/manageGroupPerson",
+			"style": {
+				"navigationBarBackgroundColor": "#387FB5",
+				"navigationBarTitleText": "管理群组"
+			}
+		},
+		{
+			"path": "pages/friends/friend-info",
+			"style": {
+				"navigationBarBackgroundColor": "#387FB5",
+				"navigationBarTitleText": "成员信息"
+			}
+		},
+		{
+			"path": "pages/friends/friend-card",
+			"style": {
+				"navigationBarBackgroundColor": "#387FB5",
+				"navigationBarTitleText": "选择联系人"
+			}
+		},
+		{
+			"path": "pages/message-list/message-list",
+			"style": {
+				"navigationBarBackgroundColor": "#387FB5",
+				"navigationBarTitleText": "我的消息",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue6df ",
+							"fontSrc": "/static/iconfont.ttf",
+							"fontSize": "28px",
+							"color": "#F2F2F2"
+						}]
+					}
+// 					"pullToRefresh": {
+// 						"support": true,
+// 						"style": "circle"
+// 					}
+				}
+			}
+		},
+		{
+			"path": "pages/message-list/message-search",
+			"style": {
+				"navigationBarBackgroundColor": "#387FB5",
+				"navigationBarTitleText": "消息搜索"
+			}
+		},
+		{
+			"path": "pages/message-list/message-search-detail",
+			"style": {
+				"navigationBarBackgroundColor": "#387FB5",
+				"navigationBarTitleText": "消息搜索详情"
+			}
+		},
+		{
+			"path": "pages/organize/organizeIndex",
+			"style": {
+				"navigationBarBackgroundColor": "#387FB5",
+				"navigationBarTitleText": "通讯录"
+			}
+		},
+		{
+			"path": "pages/friends/friend-list",
+			"style": {
+				"navigationBarBackgroundColor": "#387FB5",
+				"navigationBarTitleText": "常用联系人",
+				"app-plus": {
+					"pullToRefresh": {
+						"support": true,
+						"style": "circle"
+					}
+				}
+			}
+		}, {
+			"path": "pages/group/group",
+			"style": {
+				"navigationBarBackgroundColor": "#387FB5",
+				"navigationBarTitleText": "群组列表",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarBackgroundColor": "#387FB5",
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/user/sys-notice",
+			"style": {
+				"navigationBarBackgroundColor": "#387FB5",
+				"navigationBarTitleText": "系统公告"
+			}
+		},
+		{
+			"path": "pages/user/area-setting",
+			"style": {
+				"navigationBarBackgroundColor": "#387FB5",
+				"navigationBarTitleText": "聊天设置"
+			}
+		}, 
+		{
+			"path": "pages/user/setting",
+			"style": {
+				"navigationBarBackgroundColor": "#387FB5",
+				"navigationBarTitleText": "系统设置"
+			}
+		}, {
+			"path": "pages/user/security-setting",
+			"style": {
+				"navigationBarBackgroundColor": "#387FB5",
+				"navigationBarTitleText": "安全设置"
+			}
+		}, {
+			"path": "pages/user/sound-setting",
+			"style": {
+				"navigationBarBackgroundColor": "#387FB5",
+				"navigationBarTitleText": "声音设置"
+			}
+		}, {
+			"path": "pages/user/message-setting",
+			"style": {
+				"navigationBarBackgroundColor": "#387FB5",
+				"navigationBarTitleText": "消息提示设置"
+			}
+		}, {
+			"path": "pages/user/about",
+			"style": {
+				"navigationBarBackgroundColor": "#387FB5",
+				"navigationBarTitleText": "关于"
+			}
+		}, {
+			"path": "pages/user/modify-password",
+			"style": {
+				"navigationBarBackgroundColor": "#387FB5",
+				"navigationBarTitleText": "修改密码",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "确定",
+							"fontSize": "16px",
+							"color": "#F2F2F2"
+						}]
+					}
+				}
+			}
+		}, {
+			"path": "pages/user/user-detail",
+			"style": {
+				"navigationBarBackgroundColor": "#387FB5",
+				"navigationBarTitleText": "用户信息"
+			}
+		}, {
+			"path": "pages/serviceno/serviceno-list",
+			"style": {
+				"navigationBarBackgroundColor": "#387FB5",
+				"navigationBarTitleText": "服务号"
+			}
+		}, {
+			"path": "pages/serviceno/article-list",
+			"style": {
+				"navigationBarBackgroundColor": "#387FB5",
+				"navigationBarTitleText": "服务列表"
+			}
+		}, {
+			"path": "pages/serviceno/article-detail",
+			"style": {
+				"navigationBarBackgroundColor": "#387FB5",
+				"navigationBarTitleText": "服务详情"
+			}
+		}, {
+			"path": "pages/mini/miniprogram-list",
+			"style": {
+				"navigationBarBackgroundColor": "#387FB5",
+				"navigationBarTitleText": "小程序"
+			}
+		}, {
+			"path": "pages/mini/miniprogram-detail",
+			"style": {
+				"navigationBarBackgroundColor": "#387FB5",
+				"navigationBarTitleText": "程序详情"
+			}
+		}, {
+			"path": "pages/group/group-info",
+			"style": {
+				"navigationBarBackgroundColor": "#387FB5",
+				"navigationBarTitleText": "群聊信息"
+			}
+		}, {
+			"path": "pages/group/atGroupPeople",
+			"style": {
+				"navigationBarBackgroundColor": "#387FB5",
+				"navigationBarTitleText": "选择@的人"
+			}
+		}, {
+			"path": "pages/history-message/history-message",
+			"style": {
+				"navigationBarBackgroundColor": "#387FB5",
+				"navigationBarTitleText": "聊天管理"
+			}
+		}, {
+			"path": "pages/file/file-list",
+			"style": {
+				"navigationBarBackgroundColor": "#387FB5",
+				"navigationBarTitleText": "文件列表",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "确定",
+							"fontSize": "16px",
+							"color": "#F2F2F2"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/im-chat/voice-wating",
+			"style": {
+				"navigationBarBackgroundColor": "#387FB5",
+				"navigationBarTitleText": " ",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#7a7e83",
+		"selectedColor": "#0faeff",
+		"backgroundColor": "#F7F7F7",
+		"list": [{
+				"pagePath": "pages/message-list/message-list",
+				"text": "消息",
+				"iconPath": "static/img/message.png",
+				"selectedIconPath": "static/img/messageHL.png"
+			}, {
+				"pagePath": "pages/main/mainPeople",
+				"text": "联系人",
+				"iconPath": "static/img/friendList.png",
+				"selectedIconPath": "static/img/friendListHL.png"
+			},
+			{
+				"pagePath": "pages/organize/organizeIndex",
+				"text": "通讯录",
+				"iconPath": "static/img/organize.png",
+				"selectedIconPath": "static/img/organizeHL.png"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"text": "我的",
+				"iconPath": "static/img/my.png",
+				"selectedIconPath": "static/img/myHL.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#0faeff",
+		"backgroundColor": "#fbf9fe"
+	}
+	// "condition": { //模式配置，仅开发期间生效
+	// 	"current": 0, //当前激活的模式(list 的索引项)
+	// 	"list": [{
+	// 		"name": "debug", //模式名称
+	// 		"path": "pages/user/user", //启动页面，必选
+	// 		"query": "" //启动参数，在页面的onLoad函数里面得到
+	// 	}]
+	// }
+}

@@ -1,0 +1,65 @@
+{
+  "_from": "@xmpp/tcp@^0.7.0",
+  "_id": "@xmpp/tcp@0.7.0",
+  "_inBundle": false,
+  "_integrity": "sha512-ByphSJ70KNOYBV1OTsodkpZs/L7P2d9okO5+5yUj6ZONuFL4aJ9UzdIyAYNotBnZUU/JDvPqrry2GhJK+z64uA==",
+  "_location": "/@xmpp/tcp",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@xmpp/tcp@^0.7.0",
+    "name": "@xmpp/tcp",
+    "escapedName": "@xmpp%2ftcp",
+    "scope": "@xmpp",
+    "rawSpec": "^0.7.0",
+    "saveSpec": null,
+    "fetchSpec": "^0.7.0"
+  },
+  "_requiredBy": [
+    "/@xmpp/client"
+  ],
+  "_resolved": "https://registry.npmjs.org/@xmpp/tcp/-/tcp-0.7.0.tgz",
+  "_shasum": "9b1ad0651b24c67a53163450b501a68420b4cb61",
+  "_spec": "@xmpp/tcp@^0.7.0",
+  "_where": "E:\\git\\im\\client\\APP\\im-app\\node_modules\\@xmpp\\client",
+  "bugs": {
+    "url": "http://github.com/xmppjs/xmpp.js/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@xmpp/connection-tcp": "^0.7.0"
+  },
+  "deprecated": false,
+  "description": "XMPP TCP for JavaScript",
+  "engines": {
+    "node": ">= 10.0.0",
+    "yarn": ">= 1.0.0"
+  },
+  "gitHead": "8d6ba3b99acb6d38e58da5144e8c54b1eb6e9d14",
+  "homepage": "https://github.com/xmppjs/xmpp.js/tree/master/packages/tcp",
+  "keywords": [
+    "XMPP",
+    "tcp"
+  ],
+  "license": "ISC",
+  "name": "@xmpp/tcp",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xmppjs/xmpp.js.git"
+  },
+  "version": "0.7.0",
+  "warnings": [
+    {
+      "code": "ENOTSUP",
+      "required": {
+        "node": ">= 10.0.0",
+        "yarn": ">= 1.0.0"
+      },
+      "pkgid": "@xmpp/tcp@0.7.0"
+    }
+  ]
+}

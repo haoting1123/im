@@ -1,0 +1,59 @@
+{
+  "_args": [
+    [
+      "@xmpp/sasl-plain@0.7.0",
+      "E:\\git\\im\\client\\PC\\im-pc"
+    ]
+  ],
+  "_from": "@xmpp/sasl-plain@0.7.0",
+  "_id": "@xmpp/sasl-plain@0.7.0",
+  "_inBundle": false,
+  "_integrity": "sha512-YrYpefnpYlHRg61hd5M1Tfas4Zyx3L5zb+nhPfu34mmScF0zXc+lolJKLj7/PTUdSFujBuftWr59SSK9ycPIFg==",
+  "_location": "/@xmpp/sasl-plain",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@xmpp/sasl-plain@0.7.0",
+    "name": "@xmpp/sasl-plain",
+    "escapedName": "@xmpp%2fsasl-plain",
+    "scope": "@xmpp",
+    "rawSpec": "0.7.0",
+    "saveSpec": null,
+    "fetchSpec": "0.7.0"
+  },
+  "_requiredBy": [
+    "/@xmpp/client"
+  ],
+  "_resolved": "https://registry.npmjs.org/@xmpp/sasl-plain/-/sasl-plain-0.7.0.tgz",
+  "_spec": "0.7.0",
+  "_where": "E:\\git\\im\\client\\PC\\im-pc",
+  "bugs": {
+    "url": "http://github.com/xmppjs/xmpp.js/issues"
+  },
+  "dependencies": {
+    "sasl-plain": "^0.1.0"
+  },
+  "description": "XMPP SASL plain for JavaScript",
+  "engines": {
+    "node": ">= 10.0.0",
+    "yarn": ">= 1.0.0"
+  },
+  "gitHead": "8d6ba3b99acb6d38e58da5144e8c54b1eb6e9d14",
+  "homepage": "https://github.com/xmppjs/xmpp.js/tree/master/packages/sasl-plain",
+  "keywords": [
+    "XMPP",
+    "sasl",
+    "plain"
+  ],
+  "license": "ISC",
+  "name": "@xmpp/sasl-plain",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xmppjs/xmpp.js.git"
+  },
+  "version": "0.7.0"
+}

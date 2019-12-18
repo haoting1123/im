@@ -1,0 +1,70 @@
+{
+  "_args": [
+    [
+      "@xmpp/resolve@0.7.0",
+      "E:\\git\\im\\client\\PC\\im-pc"
+    ]
+  ],
+  "_from": "@xmpp/resolve@0.7.0",
+  "_id": "@xmpp/resolve@0.7.0",
+  "_inBundle": false,
+  "_integrity": "sha512-D5QfMiDWjWsKwK4PNYsfNp849UM4z9n+arlvNneHbj9VlDq/bq0EjUBoW7UlUhaXubWhgimwvO78FrL4+/w3kQ==",
+  "_location": "/@xmpp/resolve",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@xmpp/resolve@0.7.0",
+    "name": "@xmpp/resolve",
+    "escapedName": "@xmpp%2fresolve",
+    "scope": "@xmpp",
+    "rawSpec": "0.7.0",
+    "saveSpec": null,
+    "fetchSpec": "0.7.0"
+  },
+  "_requiredBy": [
+    "/@xmpp/client"
+  ],
+  "_resolved": "https://registry.npmjs.org/@xmpp/resolve/-/resolve-0.7.0.tgz",
+  "_spec": "0.7.0",
+  "_where": "E:\\git\\im\\client\\PC\\im-pc",
+  "browser": {
+    "dns": false,
+    "./lib/dns": false,
+    "node-fetch": false
+  },
+  "bugs": {
+    "url": "http://github.com/xmppjs/xmpp.js/issues"
+  },
+  "dependencies": {
+    "@xmpp/connection": "^0.7.0",
+    "@xmpp/xml": "^0.7.0",
+    "node-fetch": "^2.3.0"
+  },
+  "description": "XMPP connection methods resolution for JavaScript",
+  "engines": {
+    "node": ">= 10.0.0",
+    "yarn": ">= 1.0.0"
+  },
+  "gitHead": "8d6ba3b99acb6d38e58da5144e8c54b1eb6e9d14",
+  "homepage": "https://github.com/xmppjs/xmpp.js/tree/master/packages/resolve",
+  "keywords": [
+    "XMPP",
+    "dns",
+    "records",
+    "srv",
+    "txt",
+    "lookup",
+    "resolve"
+  ],
+  "license": "ISC",
+  "name": "@xmpp/resolve",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xmppjs/xmpp.js.git"
+  },
+  "version": "0.7.0"
+}

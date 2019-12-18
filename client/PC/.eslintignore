@@ -1,0 +1,12 @@
+test/unit/coverage/**
+test/unit/*.js
+test/e2e/*.js
+src/renderer/utils/**
+src/renderer/components/chatPanel/**
+src/renderer/components/dialog/**
+src/renderer/components/user/**
+src/renderer/components/channel/**
+src/renderer/components/userChannel/**
+static/js/at.js
+lib/**
+static/**

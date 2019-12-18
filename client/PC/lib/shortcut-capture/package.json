@@ -1,0 +1,105 @@
+{
+  "_from": "shortcut-capture@^1.1.3",
+  "_id": "shortcut-capture@1.1.3",
+  "_inBundle": false,
+  "_integrity": "sha512-ZGg4G0YHkR26dfJhoyKB0f8Ian/iQvVuEYzq71M++JkzyD2DRaJv9/wSenyJqK9uPUbO0g/p0XBLKCVtzD+EHQ==",
+  "_location": "/shortcut-capture",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "shortcut-capture@^1.1.3",
+    "name": "shortcut-capture",
+    "escapedName": "shortcut-capture",
+    "rawSpec": "^1.1.3",
+    "saveSpec": null,
+    "fetchSpec": "^1.1.3"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/shortcut-capture/-/shortcut-capture-1.1.3.tgz",
+  "_shasum": "4672ed0cb061507d5c3b0a64d0d2d68b1e13832d",
+  "_spec": "shortcut-capture@^1.1.3",
+  "_where": "E:\\git\\im\\client\\PC\\im-pc",
+  "author": {
+    "name": "nashaofu",
+    "email": "diaocheng@outlook.com"
+  },
+  "bugs": {
+    "url": "https://github.com/nashaofu/shortcut-capture/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@babel/runtime": "^7.3.1",
+    "normalize.css": "^8.0.1",
+    "vue": "^2.6.7"
+  },
+  "deprecated": false,
+  "description": "electron shortcut capture plugin",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.3.3",
+    "@babel/plugin-proposal-export-default-from": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.3.4",
+    "@babel/preset-env": "^7.3.1",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "autoprefixer": "^9.4.8",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.0",
+    "electron": "^2.0.17",
+    "electron-debug": "^2.1.0",
+    "electron-dev-webpack-plugin": "0.0.11",
+    "electron-devtools-installer": "^2.2.4",
+    "eslint": "^5.14.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^5.2.2",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "postcss-loader": "^3.0.0",
+    "pug": "^2.0.3",
+    "pug-plain-loader": "^1.0.0",
+    "url-loader": "^1.1.2",
+    "vue-loader": "^15.6.4",
+    "vue-template-compiler": "^2.6.7",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.0",
+    "webpack-merge": "^4.2.1"
+  },
+  "files": [
+    "dist/**"
+  ],
+  "homepage": "https://github.com/nashaofu/shortcut-capture#readme",
+  "license": "MIT",
+  "main": "dist/main.js",
+  "name": "shortcut-capture",
+  "peerDependencies": {
+    "electron": "^2.0.17"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nashaofu/shortcut-capture.git"
+  },
+  "scripts": {
+    "build": "webpack --config build/webpack.prod.conf.js",
+    "build:main": "webpack --config build/main/webpack.prod.conf.js",
+    "build:renderer": "webpack --config build/renderer/webpack.prod.conf.js",
+    "dev": "node build/webpack.dev.conf.js",
+    "dev:main": "webpack --config build/main/webpack.dev.conf.js",
+    "dev:renderer": "webpack-dev-server --config build/renderer/webpack.dev.conf.js",
+    "lint": "eslint --ext .js,.vue src",
+    "release": "npm run build && npm publish",
+    "start": "electron ."
+  },
+  "version": "1.1.3"
+}

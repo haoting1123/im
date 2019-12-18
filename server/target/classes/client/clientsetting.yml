@@ -1,0 +1,11 @@
+clientinfo:
+# 发送文件的大小
+  SEND_FILE_SIZE: 50
+# 发送文件的后缀
+  SEND_FILE_SUFFIX: ofd,pdf,doc,docx,xls,xlsx,ppt,pptx,zip
+# 文件存储空间大小(MB)
+  STORAGE_FILE_SIZE: 800
+# 消息存储空间大小(万条)
+  STORAGE_MSG_SIZE: 10
+# 消息存储单位 10000
+  KB_MSG_NUMBER: 10000

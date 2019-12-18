@@ -1,0 +1,66 @@
+{
+  "_from": "@xmpp/resource-binding@^0.7.0",
+  "_id": "@xmpp/resource-binding@0.7.0",
+  "_inBundle": false,
+  "_integrity": "sha512-WvAJl2J9O7pkkw405HoBVgmZGjNFlayvUeyaaH7qhKmAdz0klNonzjadaMpBgH/b7kEJTjFY4sLvXh1pTJR+mg==",
+  "_location": "/@xmpp/resource-binding",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@xmpp/resource-binding@^0.7.0",
+    "name": "@xmpp/resource-binding",
+    "escapedName": "@xmpp%2fresource-binding",
+    "scope": "@xmpp",
+    "rawSpec": "^0.7.0",
+    "saveSpec": null,
+    "fetchSpec": "^0.7.0"
+  },
+  "_requiredBy": [
+    "/@xmpp/client"
+  ],
+  "_resolved": "https://registry.npmjs.org/@xmpp/resource-binding/-/resource-binding-0.7.0.tgz",
+  "_shasum": "c20e021d6661eb74f50449f7781cec4045c5ef7a",
+  "_spec": "@xmpp/resource-binding@^0.7.0",
+  "_where": "E:\\git\\im\\client\\APP\\im-app\\node_modules\\@xmpp\\client",
+  "bugs": {
+    "url": "http://github.com/xmppjs/xmpp.js/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@xmpp/xml": "^0.7.0"
+  },
+  "deprecated": false,
+  "description": "XMPP resource binding for JavaScript",
+  "engines": {
+    "node": ">= 10.0.0",
+    "yarn": ">= 1.0.0"
+  },
+  "gitHead": "8d6ba3b99acb6d38e58da5144e8c54b1eb6e9d14",
+  "homepage": "https://github.com/xmppjs/xmpp.js/tree/master/packages/resource-binding",
+  "keywords": [
+    "XMPP",
+    "bind",
+    "resource"
+  ],
+  "license": "ISC",
+  "name": "@xmpp/resource-binding",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xmppjs/xmpp.js.git"
+  },
+  "version": "0.7.0",
+  "warnings": [
+    {
+      "code": "ENOTSUP",
+      "required": {
+        "node": ">= 10.0.0",
+        "yarn": ">= 1.0.0"
+      },
+      "pkgid": "@xmpp/resource-binding@0.7.0"
+    }
+  ]
+}
