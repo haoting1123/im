@@ -23,7 +23,7 @@
         <shiro.version>1.4.0</shiro.version>
         <lombok.version>1.18.4</lombok.version>
         <guava.version>18.0</guava.version>
-        <bouncycastle.version>1.60</bouncycastle.version>
+        <bouncycastle.version>1.67</bouncycastle.version>
     </properties>
 
     <dependencyManagement>
