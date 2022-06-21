@@ -19,7 +19,7 @@
         <java.version>1.8</java.version>
         <spring.boot.version>2.1.3.RELEASE</spring.boot.version>
         <mybatis.springboot.version>2.0.0</mybatis.springboot.version>
-        <mysql.version>5.1.47</mysql.version>  <!-- camunda 使用高版本mysq jdbc 不能自动创建表结构 -->
+        <mysql.version>8.0.28</mysql.version>  <!-- camunda 使用高版本mysq jdbc 不能自动创建表结构 -->
         <shiro.version>1.4.0</shiro.version>
         <lombok.version>1.18.4</lombok.version>
         <guava.version>18.0</guava.version>
